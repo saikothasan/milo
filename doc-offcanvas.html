@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 4 Magazine/Blog Theme">
+	<meta name="author" content="Bootlab">
+
+  <title>Milo - Magazine/Blog Theme</title>
+
+  <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white absolute-top">
+      <div class="container">
+
+        <button class="navbar-toggler order-2 order-md-1" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-left navbar-right" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-3 order-md-2" id="navbar-left">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="doc-offcanvas.html#" id="dropdown01" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="home-onecolumn.html">One column</a>
+                <a class="dropdown-item" href="home-twocolumn.html">Two column</a>
+                <a class="dropdown-item" href="home-threecolumn.html">Three column</a>
+                <a class="dropdown-item" href="home-fourcolumn.html">Four column</a>
+                <a class="dropdown-item" href="home-featured.html">Featured posts</a>
+                <a class="dropdown-item" href="home-fullwidth.html">Full width</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="doc-offcanvas.html#" id="dropdown02" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown02">
+                <a class="dropdown-item" href="post-image.html">Image</a>
+                <a class="dropdown-item" href="post-video.html">Video</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="doc-offcanvas.html#" id="dropdown03" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown03">
+                <a class="dropdown-item" href="doc-alerts.html">Alerts</a>
+                <a class="dropdown-item" href="doc-buttons.html">Buttons</a>
+                <a class="dropdown-item" href="doc-cards.html">Cards</a>
+                <a class="dropdown-item" href="doc-carousel.html">Carousel</a>
+                <a class="dropdown-item" href="doc-forms.html">Forms</a>
+                <a class="dropdown-item" href="doc-icons.html">Icons</a>
+                <a class="dropdown-item" href="doc-modals.html">Modals</a>
+                <a class="dropdown-item" href="doc-offcanvas.html">Offcanvas</a>
+                <a class="dropdown-item" href="doc-pagination.html">Pagination</a>
+                <a class="dropdown-item" href="doc-tables.html">Tables</a>
+                <a class="dropdown-item" href="doc-typography.html">Typography</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto order-1 order-md-3" href="index.html">Milø</a>
+
+        <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="page-about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page-contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline" role="search">
+            <input class="search js-search form-control form-control-rounded me-sm-2" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main pt-4">
+    <div class="container">
+
+      <article class="card card-outline mb-4">
+        <div class="card-body">
+          <header>
+            <h4 class="card-title">Offcanvas</h4>
+          </header>
+          <p>Build hidden sidebars into your project for navigation, shopping carts, and more with a few classes and our JavaScript plugin.</p>
+
+          <a class="btn btn-primary my-1" data-bs-toggle="offcanvas" href="doc-offcanvas.html#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Link with href
+          </a>
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="doc-offcanvas.html#">Action</a></li>
+                  <li><a class="dropdown-item" href="doc-offcanvas.html#">Another action</a></li>
+                  <li><a class="dropdown-item" href="doc-offcanvas.html#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article><!-- /.card -->
+
+      <article class="card card-outline mb-4">
+        <div class="card-body">
+          <header>
+            <h4 class="card-title">Offcanvas placement</h4>
+          </header>
+          <p>There’s no default placement for offcanvas components, so you must add one of these classes: <code>.offcanvas-start</code>, <code>.offcanvas-end</code> or <code>.offcanvas-bottom</code>.</p>
+
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Toggle left offcanvas</button>
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle bottom offcanvas</button>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasLeftLabel">Offcanvas left</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+            </div>
+          </div>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+            </div>
+          </div>
+
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+            </div>
+          </div>
+
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasBottomLabel">Offcanvas bottom</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article><!-- /.card -->
+
+      <article class="card card-outline mb-4">
+        <div class="card-body">
+          <header>
+            <h4 class="card-title">Offcanvas backdrop</h4>
+          </header>
+          <p>Scrolling the <code>&#x3C;body&#x3E;</code> element is disabled when an offcanvas and its backdrop are visible. Use the <code>data-bs-scroll</code> attribute to toggle <code>&#x3C;body&#x3E;</code> scrolling and <code>data-bs-backdrop</code> to toggle the backdrop.</p>
+
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable backdrop (default)</button>
+          <button class="btn btn-primary my-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>...</p>
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+          </div>
+        </div>
+      </article><!-- /.card -->
+
+    </div>
+  </main>
+
+  <footer class="site-footer bg-dark">
+    <div class="container">
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="doc-offcanvas.html#">Privacy policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="doc-offcanvas.html#">Terms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="doc-offcanvas.html#">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="doc-offcanvas.html#">Advertise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page-contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="copy">
+        &copy; Milo 2022<br />
+        All rights reserved
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
